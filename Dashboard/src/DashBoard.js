@@ -196,8 +196,17 @@ const [community, setCommunity] = useState([]);
        {/* <h2>Sessions Per Month</h2> */}
        <h2 class="sessions-title">Sessions Per Month</h2>
        <Bar/>
-       <Doughnut/> 
-       <Pie/>
+       {/* <Doughnut/> 
+       <Pie/> */}
+       <div class="chart-container">
+  <div class="chart">
+    <Doughnut/>
+  </div>
+  <div class="chart">
+    <Pie/>
+  </div>
+</div>
+
       </div>
       </div>
      </Layout>
